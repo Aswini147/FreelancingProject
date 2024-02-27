@@ -1,0 +1,362 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2%;
+    padding-top: 10%;
+}
+
+.session-container {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+    padding: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.first-session-heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.first-session-para {
+    font-size: 12px;
+}
+
+.session-icons-container {
+    display: flex;
+}
+
+.first-session-container {
+    margin-right: 7%;
+}
+
+.review-session-container {
+    margin-right: 20%;
+}
+
+.session-icon-container {
+    border: 2px solid #784719;
+    margin: 3px;
+    width: 60px;
+    height: 55px;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.icon-color {
+    color: #F24E1E;
+    margin-bottom: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+.icon-color-first {
+    width: 26px;
+    height: 26px;
+    color: orange;
+}
+
+.icon-background {
+    background-color: #F24E1E;
+    color: white;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+.first-session-button {
+    border-width: 0px;
+    box-shadow: 6px 5px black;
+    background-color: #E76F00;
+    padding: 4px;
+}
+
+.second-session-container {
+    display: flex;
+    background-color: #E76F00;
+    margin-top: 30%;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.second-session-heading {
+    font-size: 18px;
+    color: white;
+}
+
+.second-session-para {
+    font-size: 10px;
+    color: white;
+}
+
+.sencond-session-button {
+    border-width: 0px;
+    border-radius: 5px;
+    width: 40px;
+    color: white;
+    background-color: black;
+    font-size: 8px;
+    height: 20px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+
+.second-session-image {
+    max-width: 50px;
+}
+
+.second-session-second-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.instructedby-para {
+    background-color: #E76F00;
+    width: 80px;
+    text-align: center;
+    font-size: 12px;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-top: 2px;
+    margin-top: 18px;
+    padding-bottom: 4px;
+}
+
+.review-container {
+    display: flex;
+    margin-top: 10%;
+    background-color: #FFF8F1;
+    padding: 10%;
+}
+
+.first-review-heading {
+    font-size: 18px;
+}
+
+.second-review-para {
+    font-size: 13px;
+}
+
+.second-review-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+}
+
+.first-review-icon-background {
+    background-color: #F24E1E;
+    color: black;
+    font-weight: bold;
+    border-radius: 100%;
+    padding: 5px;
+    width: 26px;
+    height: 26px;
+}
+
+.icon-view {
+    width: 16px;
+    height: 16px;
+}
+
+@media screen and (min-width:1200px) {
+    .first-session-heading {
+        font-size: 40px;
+    }
+
+    .first-session-para {
+        font-size: 24px;
+    }
+
+    .session-icon-container {
+        border: 2px solid #784719;
+        width: 100px;
+        height: 80px;
+        font-size: 18px;
+        text-align: center;
+        margin-right: 20px;
+        padding-bottom: 30px;
+    }
+
+    .icon-color {
+        width: 26px;
+        height: 26px;
+        margin-bottom: 14px;
+    }
+
+    .icon-background {
+        margin-bottom: 14px;
+        width: 26px;
+        height: 26px;
+    }
+
+    .first-session-button {
+        box-shadow: 7px 8px black;
+        padding: 10px;
+        font-size: 24px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .second-session-heading {
+        font-size: 32px;
+    }
+
+    .second-session-para {
+        font-size: 18px;
+    }
+
+    .sencond-session-button {
+        width: 100px;
+        font-size: 20px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .second-session-image {
+        max-width: 80px;
+    }
+
+    .instructedby-para {
+        width: 120px;
+        font-size: 18px;
+        padding-top: 2px;
+        margin-top: 18px;
+    }
+
+    .first-review-heading {
+        font-size: 32px;
+    }
+
+    .second-review-para {
+        font-size: 24px;
+    }
+
+    .second-review-image {
+        width: 80px;
+        height: 80px;
+        margin-right: 25px;
+    }
+
+    .icon-color-first {
+        width: 35px;
+        height: 35px;
+    }
+
+    .icon-view {
+        width: 20px;
+        height: 20px;
+    }
+
+    .name {
+        font-size: 26px;
+    }
+
+    .first-review-icon-background {
+        width: 44px;
+        height: 44px
+    }
+}
+
+@media screen and (max-width:575px) {
+    .first-session-heading {
+        font-size: 12px;
+    }
+
+    .first-session-para {
+        font-size: 8px;
+    }
+
+    .session-icon-container {
+        border: 2px solid #784719;
+        width: 30px;
+        height: 30px;
+        font-size: 5px;
+        text-align: center;
+    }
+
+    .icon-color {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 2px;
+    }
+
+    .icon-background {
+        margin-bottom: 2px;
+        width: 10px;
+        height: 10px;
+    }
+
+    .first-session-button {
+        box-shadow: 5px 4px black;
+        padding: 4px;
+        font-size: 7px;
+    }
+
+    .second-session-heading {
+        font-size: 12px;
+    }
+
+    .second-session-para {
+        font-size: 6px;
+    }
+
+    .sencond-session-button {
+        width: 30px;
+        font-size: 4px;
+        height: 15px;
+    }
+
+    .second-session-image {
+        max-width: 30px;
+    }
+
+    .instructedby-para {
+        width: 50px;
+        font-size: 6px;
+        padding-top: 2px;
+        margin-top: 18px;
+    }
+
+    .first-review-heading {
+        font-size: 12px;
+    }
+
+    .second-review-para {
+        font-size: 8px;
+    }
+
+    .second-review-image {
+        margin-top: 15px;
+        width: 30px;
+        height: 30px;
+        margin-right: 25px;
+    }
+
+    .icon-color-first {
+        width: 15px;
+        height: 15px;
+    }
+
+    .icon-view {
+        width: 8px;
+        height: 8px;
+    }
+
+    .name {
+        font-size: 12px;
+    }
+
+    .first-review-icon-background {
+        width: 12px;
+        height: 12px
+    }
+}
